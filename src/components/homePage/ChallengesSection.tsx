@@ -53,7 +53,7 @@ const ChallengesSection = () => {
                     </svg>
                   </span>
                   <span className="text-sm sm:text-base text-gray-500">
-                    <span className="font-bold">Easy &amp; fast</span> designing
+                    <span className="font-bold">Easy  fast</span> designing
                   </span>
                 </li>
                 <li className="flex space-x-3">

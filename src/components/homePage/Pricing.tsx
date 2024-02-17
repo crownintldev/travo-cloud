@@ -54,7 +54,7 @@ const Pricing = () => {
           {/* Title */}
           <div className="mx-auto max-w-2xl mb-8 lg:mb-14 text-center">
             <h2 className="text-3xl lg:text-4xl text-gray-800 font-bold dark:text-gray-200">
-              Solo, agency or team? We’ve got you covered.
+              Solo, agency or team? We got you covered.
             </h2>
           </div>
           {/* End Title */}
