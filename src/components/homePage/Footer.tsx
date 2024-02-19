@@ -16,7 +16,7 @@ const Footer = () => {
             Brand
           </a>
           <p className="mt-3 text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-           2022 Preline.
+           2022 Travokey.
           </p>
         </div>
         {/* End Col */}
@@ -459,7 +459,7 @@ const Footer = () => {
                 Brand
               </a>
               <p className="mt-1 text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-                © 2022 Preline.
+                © 2022 travokey.
               </p>
             </div>
             {/* Social Brands */}

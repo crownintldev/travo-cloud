@@ -6,8 +6,8 @@ import ScrollAnimation from '../ReusableComponents/ScrollAnimation';
 const Clients = () => {
 
   return (
-    <section className='md:pt-20 md:pb:10 py-5'>
-      <Container>
+    <section >
+      <Container className="py-8 md:py-16 lg:py-20">
         <h2 className='md:text-3xl text-2xl font-semibold text-center '>
            Trusted by Companies 
         </h2>

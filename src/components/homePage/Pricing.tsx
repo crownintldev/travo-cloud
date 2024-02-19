@@ -1,10 +1,12 @@
 import React from "react";
-import { Switch } from "@/components/shadcn/ui/switch"
+import { Switch } from "@/components/shadcn/ui/switch";
 import Container from "@/utils/Container/Container";
+import { IoMdCheckmark } from "react-icons/io";
+import { RxCross2 } from "react-icons/rx";
 
 const Pricing = () => {
   return (
-    <Container>
+    <Container className="py-8 md:py-16 lg:py-20">
       {/* Features */}
       <div>
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
@@ -21,7 +23,7 @@ const Pricing = () => {
           <label className="min-w-14 text-sm text-gray-500 me-3 dark:text-gray-400">
             Monthly
           </label>
-          <Switch id="airplane-mode" />   
+          <Switch id="airplane-mode" />
           <label className="relative min-w-14 text-sm text-gray-500 ms-3 dark:text-gray-400">
             Annual
             <span className="absolute -top-10 start-auto -end-28">
@@ -83,21 +85,8 @@ const Pricing = () => {
                     {/* List */}
                     <ul className="space-y-2 text-sm sm:text-base">
                       <li className="flex space-x-3">
-                        <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                          <svg
-                            className="flex-shrink-0 size-3.5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={24}
-                            height={24}
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          >
-                            <polyline points="20 6 9 17 4 12" />
-                          </svg>
+                        <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 ">
+                          <IoMdCheckmark size={15} />
                         </span>
                         <span className="text-gray-800 dark:text-gray-200">
                           Up to 10 people
@@ -105,20 +94,7 @@ const Pricing = () => {
                       </li>
                       <li className="flex space-x-3">
                         <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                          <svg
-                            className="flex-shrink-0 size-3.5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={24}
-                            height={24}
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          >
-                            <polyline points="20 6 9 17 4 12" />
-                          </svg>
+                        <IoMdCheckmark size={15} />
                         </span>
                         <span className="text-gray-800 dark:text-gray-200">
                           Collect data
@@ -126,20 +102,7 @@ const Pricing = () => {
                       </li>
                       <li className="flex space-x-3">
                         <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                          <svg
-                            className="flex-shrink-0 size-3.5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={24}
-                            height={24}
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          >
-                            <polyline points="20 6 9 17 4 12" />
-                          </svg>
+                        <IoMdCheckmark size={15} />
                         </span>
                         <span className="text-gray-800 dark:text-gray-200">
                           Code extensibility
@@ -151,21 +114,7 @@ const Pricing = () => {
                     <ul className="space-y-2 text-sm sm:text-base">
                       <li className="flex space-x-3">
                         <span className="size-5 flex justify-center items-center rounded-full bg-gray-50 text-gray-500 dark:bg-gray-800">
-                          <svg
-                            className="flex-shrink-0 size-3.5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={24}
-                            height={24}
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          >
-                            <path d="M18 6 6 18" />
-                            <path d="m6 6 12 12" />
-                          </svg>
+                        <RxCross2 size={15}/>
                         </span>
                         <span className="text-gray-800 dark:text-gray-200">
                           Custom reports
@@ -173,21 +122,7 @@ const Pricing = () => {
                       </li>
                       <li className="flex space-x-3">
                         <span className="size-5 flex justify-center items-center rounded-full bg-gray-50 text-gray-500 dark:bg-gray-800">
-                          <svg
-                            className="flex-shrink-0 size-3.5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={24}
-                            height={24}
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          >
-                            <path d="M18 6 6 18" />
-                            <path d="m6 6 12 12" />
-                          </svg>
+                        <RxCross2 size={15}/>
                         </span>
                         <span className="text-gray-800 dark:text-gray-200">
                           Product support
@@ -195,21 +130,7 @@ const Pricing = () => {
                       </li>
                       <li className="flex space-x-3">
                         <span className="size-5 flex justify-center items-center rounded-full bg-gray-50 text-gray-500 dark:bg-gray-800">
-                          <svg
-                            className="flex-shrink-0 size-3.5"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={24}
-                            height={24}
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          >
-                            <path d="M18 6 6 18" />
-                            <path d="m6 6 12 12" />
-                          </svg>
+                        <RxCross2 size={15}/>
                         </span>
                         <span className="text-gray-800 dark:text-gray-200">
                           Activity reporting
